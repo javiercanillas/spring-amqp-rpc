@@ -1,1 +1,3 @@
 # spring-boot-ampq-rpc
+
+Test project to test capabilities of RabbitMQ as an RPC between differents servers. It requires a local RabbitMQ service running in localhost on port 5672

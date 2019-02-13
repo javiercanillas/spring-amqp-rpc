@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{yyyy-MM-dd} | %d{HH:mm:ss.SSS} | %thread | %5p | %logger{25} | %m%n</pattern>
+            <charset>utf8</charset>
+        </encoder>
+    </appender>
+
+<!--    <logger name="org.springframework.amqp.rabbit.core" level="DEBUG" />
+    <logger name="org.springframework.amqp.support.converter" level="DEBUG" />
+    <logger name="org.springframework.amqp.rabbit.listener" level="DEBUG" /> -->
+    <root level="INFO">
+        <appender-ref ref="CONSOLE" />
+    </root>
+</configuration>
