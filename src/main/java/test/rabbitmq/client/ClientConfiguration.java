@@ -36,7 +36,7 @@ public class ClientConfiguration {
         exporter.setAmqpTemplate(template);
         exporter.setMessageConverter(template.getMessageConverter());
         exporter.setService(service);
-        exporter.setServiceInterface(FibonacciService.class);
+        exporter.setServiceInterface(StopitService.class);
 
         return exporter;
     }
